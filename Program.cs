@@ -13,7 +13,7 @@ namespace ConsoleApp
 
             for (; ; )
             {
-                Console.WriteLine("输入第一个数字");
+                Console.WriteLine("输入你猜测的数字（0-100）");
                 int i = int.Parse(Console.ReadLine());
                 if (i == num)//判断输入的值是上面生成的随机数
                 {
